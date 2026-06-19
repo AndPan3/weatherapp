@@ -1,5 +1,5 @@
 async function weatherfetch(){
-const response= await fetch(data/weather1.json)
+const response = await fetch("data/weather1.json")
 const data = await response.json()
 return data
 }
@@ -49,19 +49,19 @@ const temp7h = Math.round(weather7h.temperature_2m);
 const code7h = weather7h.weather_code;
 const img7h = `https://openweathermap.org/img/wn/${code7h}@2x.png`;
 
-htmltempnow = document.getElementById(tempnow)
-htmlrainnow = document.getElementById(rainnow)
-htmlsnowonow = document.getElementById(snownow)
-htmlsnowdepthnow = document.getElementById(snowdepthnow)
-htmlwindnow = document.getElementById(windnow)
+const htmltempnow = document.getElementById("tempnow")
+const htmlrainnow = document.getElementById("rainnow")
+const htmlsnowfallnow = document.getElementById("snowfallnow")
+const htmlsnowdepthnow = document.getElementById("snowdepthnow")
+const htmlwindnow = document.getElementById("windnow")
 
-htmltemp1h = document.getElementById(temp1h)
-htmltemp2h = document.getElementById(temp2h)
-htmltemp3h = document.getElementById(temp3h)
-htmltemp4h = document.getElementById(temp4h)
-htmltemp5h = document.getElementById(temp5h)
-htmltemp6h = document.getElementById(temp6h)
-htmltemp7h = document.getElementById(temp7h)
+htmltemp1h = document.getElementById("temp1h")
+htmltemp2h = document.getElementById("temp2h")
+htmltemp3h = document.getElementById("temp3h")
+htmltemp4h = document.getElementById("temp4h")
+htmltemp5h = document.getElementById("temp5h")
+htmltemp6h = document.getElementById("temp6h")
+htmltemp7h = document.getElementById("temp7h")
 
 htmltempnow.textContent = tempnow
 htmlrainnow.textContent = rainnow
