@@ -7,7 +7,6 @@ return data
 const fetched = await weatherfetch()
 const weathernow = fetched[0];
 const tempnow = Math.round(weathernow.temperature_2m);
-const apptempnow = Math.round(weathernow.apparent_temperature);
 const codenow = weathernow.weather_code;
 const snowfallnow = Math.round(weathernow.snowfall);
 const snowdepthnow = Math.round(weathernow.snow_depth);
