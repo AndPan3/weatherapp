@@ -65,7 +65,7 @@ htmltemp7h = document.getElementById("temp7h")
 
 htmltempnow.textContent = tempnow
 htmlrainnow.textContent = rainnow
-htmlsnowonow.textContent = snowfallnow
+htmlsnownow.textContent = snowfallnow
 htmlsnowdepthnow.textContent = snowdepthnow
 htmlwindnow.textContent = windnow
 
