@@ -14,8 +14,8 @@ def OpenMeteo():
     # The order of variables in hourly or daily is important to assign them correctly below
     url = "https://api.open-meteo.com/v1/forecast"
     params = {
-        "latitude": 47.37,
-        "longitude": 8.55,
+        "latitude": 47.288129,
+        "longitude":7.943514,
         "hourly": ["temperature_2m", "apparent_temperature", "weather_code", "snowfall", "snow_depth", "rain", "wind_speed_10m"],
         "models": "meteoswiss_icon_ch1",
         "forecast_hours": 8
