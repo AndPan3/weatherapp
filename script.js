@@ -55,8 +55,8 @@ const htmltemp5h = document.getElementById("temp5h")
 const htmltemp6h = document.getElementById("temp6h")
 const htmltemp7h = document.getElementById("temp7h")
 
-if (snowfallnow = 0){
-    htmlsnowfallnow.textContent = "Kein Schnefall"
+if (snowfallnow === 0){
+    htmlsnowfallnow.textContent = "Kein Schneefall"
 } else{
     htmlsnowfallnow.textContent = snowfallnow}
 
@@ -72,3 +72,51 @@ htmltemp4h.textContent = temp4h + "C°"
 htmltemp5h.textContent = temp5h + "C°" 
 htmltemp6h.textContent = temp6h + "C°"
 htmltemp7h.textContent = temp7h + "C°"
+
+const emoji= document.getElementById("emoji")
+const emoji1= document.getElementById("emoji1")
+const emoji2= document.getElementById("emoji2")
+const emoji3= document.getElementById("emoji3")
+const emoji4= document.getElementById("emoji4")
+const emoji5= document.getElementById("emoji5")
+const emoji6= document.getElementById("emoji6")
+const emoji7= document.getElementById("emoji7")
+
+const  weatheremoji= {
+    0.0: "☀️",
+    1.0: "🌤️",
+    2.0: "⛅",
+    3.0: "☁️",
+    45.0: "🌫️",
+    48.0: "🌫️❄️",
+    51.0: "🌦️",
+    53.0: "🌦️",
+    55.0: "🌧️",
+    56.0: "🌨️💧",
+    57.0: "🌨️💧",
+    61.0: "🌦️",
+    63.0: "🌧️",
+    65.0: "🌧️🌧️",
+    66.0: "🥶🌧️",
+    67.0: "🥶🌧️",
+    71.0: "🌨️",
+    73.0: "🌨️",
+    75.0: "❄️☃️",
+    77.0: "❄️",
+    80.0: "🌦️",
+    81.0: "🌧️",
+    82.0: "⛈️",
+    85.0: "🌨️",
+    86.0: "❄️",
+    95.0: "⛈️",
+    96.0: "⛈️🌨️",
+    99.0: "⛈️❄️",
+}
+emoji.textContent = weatheremoji[codenow] || "❓";
+emoji1.textContent = weatheremoji[code1h] || "❓";
+emoji2.textContent = weatheremoji[code2h] || "❓";
+emoji3.textContent = weatheremoji[code3h] || "❓";
+emoji4.textContent = weatheremoji[code4h] || "❓";
+emoji5.textContent = weatheremoji[code5h] || "❓";
+emoji6.textContent = weatheremoji[code6h] || "❓";
+emoji7.textContent = weatheremoji[code7h] || "❓";
