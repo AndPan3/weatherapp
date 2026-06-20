@@ -61,9 +61,9 @@ if (snowfallnow === 0){
     htmlsnowfallnow.textContent = snowfallnow}
 
 htmltempnow.textContent = tempnow + "C°"
-htmlrainnow.textContent = rainnow + " mm"
-htmlsnowdepthnow.textContent = snowdepthnow
-htmlwindnow.textContent = windnow
+htmlrainnow.textContent = rainnow + " mm Regen"
+htmlsnowdepthnow.textContent = snowdepthnow + "cm Schneetiefe"
+htmlwindnow.textContent = windnow+ "km/h wind"
 
 htmltemp1h.textContent = temp1h + "C°"
 htmltemp2h.textContent = temp2h + "C°"

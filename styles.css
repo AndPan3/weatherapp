@@ -1,0 +1,18 @@
+body{
+    background-color: rgb(2, 14, 41);
+    color:#dbdbff;
+    font-family: 'Courier New', Courier, monospace;
+    align-items:center;
+    align-content:center;
+    text-align:center;
+    font-size:larger;
+}
+.forecast{
+    border: rgb(3, 15, 42) 5px solid
+}
+.p{
+    border-top:#132052 8px solid
+}
+#aktuell{
+    font-size:x-large;
+}
