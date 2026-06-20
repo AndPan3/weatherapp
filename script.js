@@ -58,7 +58,7 @@ const htmltemp7h = document.getElementById("temp7h")
 if (snowfallnow === 0){
     htmlsnowfallnow.textContent = "Kein Schneefall"
 } else{
-    htmlsnowfallnow.textContent = snowfallnow}
+    htmlsnowfallnow.textContent = snowfallnow + "mm Schneefall"}
 
 htmltempnow.textContent = tempnow + "C°"
 htmlrainnow.textContent = rainnow + " mm Regen"
