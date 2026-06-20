@@ -21,6 +21,3 @@ conditions = {
 }
 with open('data/conditions.json', 'w') as f:
     json.dump(conditions, f, indent=4)
-print(badiwetter)
-print(weathernow['weather_code'])
-print(f"{weathernow['temperature_2m']} , pppp {weathernow['apparent_temperature']}")
