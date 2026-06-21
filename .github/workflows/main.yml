@@ -9,21 +9,29 @@ jobs:
   update:
     runs-on: ubuntu-latest
     permissions:
-      contents: write # WICHTIG: Damit GitHub den Push erlauben darf!
+      contents: write
     steps:
       - uses: actions/checkout@v3
+      
       - name: Setup Python
         uses: actions/setup-python@v4
         with:
           python-version: '3.x'
+          
       - name: Run Scripts
         run: |
           python conditions.py
           python fetch.py
+          
       - name: Commit & Push
         run: |
-          git config user.name "GitHub Action"
-          git config user.email "action@github.com"
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add data/
-          git commit -m "Update weather data" || exit 0
-          git push
+          # Prüfen, ob es überhaupt Änderungen im Staging-Bereich gibt
+          if ! git diff --cached --quiet; then
+            git commit -m "Update weather data"
+            git push origin main
+          else
+            echo "Keine Änderungen vorhanden. Überspringe Commit und Push."
+          fi
