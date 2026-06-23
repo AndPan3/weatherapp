@@ -119,4 +119,25 @@ emoji3.textContent = weatheremoji[code3h] || "❓";
 emoji4.textContent = weatheremoji[code4h] || "❓";
 emoji5.textContent = weatheremoji[code5h] || "❓";
 emoji6.textContent = weatheremoji[code6h] || "❓";
-emoji7.textContent = weatheremoji[code7h] || "❓";
+
+async function conditionsfetch(){
+const responsec = await fetch("data/conditions.json")
+const dataconditions = await responsec.json()
+return dataconditions
+}
+
+const fetchedc = await conditionsfetch()
+const conditions = fetchedc[0];
+
+const regencondition= document.getElementById("regen")
+const badicondition= document.getElementById("badi")
+
+if (conditions.badi===true){
+    badicondition.textContent = "Könnte man jetzt baden: JA"
+} else{
+    badicondition.textContent = "Könnte man jetzt baden: NEIN"}
+
+if (conditions.regen===true){
+    regencondition.textContent = "Es regnet"
+} else{
+    regencondition.textContent = "Es regnet nicht"}
