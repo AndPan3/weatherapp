@@ -2,8 +2,9 @@ name: Update Weather Data
 
 on:
   schedule:
-    - cron: '0,30 * * * *'
-  workflow_dispatch: 
+    # Rennt immer noch zweimal pro Stunde, aber zu Zeiten, wo GitHubs Server chillen
+    - cron: '12,42 * * * *'
+  workflow_dispatch:
 
 jobs:
   update:
