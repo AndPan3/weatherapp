@@ -1,15 +1,5 @@
 [
     {
-        "date":"2026-06-27T18:00:00.000Z",
-        "temperature_2m":34.751499176,
-        "apparent_temperature":34.6916007996,
-        "weather_code":2.0,
-        "snowfall":0.0,
-        "snow_depth":0.0,
-        "rain":0.0,
-        "wind_speed_10m":10.1632270813
-    },
-    {
         "date":"2026-06-27T19:00:00.000Z",
         "temperature_2m":31.251499176,
         "apparent_temperature":33.2106208801,
@@ -78,5 +68,15 @@
         "snow_depth":0.0,
         "rain":0.0,
         "wind_speed_10m":5.9044389725
+    },
+    {
+        "date":"2026-06-28T02:00:00.000Z",
+        "temperature_2m":23.0515003204,
+        "apparent_temperature":23.0301399231,
+        "weather_code":3.0,
+        "snowfall":0.0,
+        "snow_depth":0.0,
+        "rain":0.0,
+        "wind_speed_10m":8.5571022034
     }
 ]
