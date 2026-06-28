@@ -1,82 +1,82 @@
 [
     {
-        "date":"2026-06-28T04:00:00.000Z",
-        "temperature_2m":22.751499176,
-        "apparent_temperature":24.2056770325,
-        "weather_code":3.0,
-        "snowfall":0.0,
-        "snow_depth":0.0,
-        "rain":0.0,
-        "wind_speed_10m":6.1936740875
-    },
-    {
-        "date":"2026-06-28T05:00:00.000Z",
-        "temperature_2m":23.201499939,
-        "apparent_temperature":25.1601257324,
-        "weather_code":3.0,
-        "snowfall":0.0,
-        "snow_depth":0.0,
-        "rain":0.0,
-        "wind_speed_10m":2.5959968567
-    },
-    {
-        "date":"2026-06-28T06:00:00.000Z",
-        "temperature_2m":24.8514995575,
-        "apparent_temperature":26.4905395508,
-        "weather_code":3.0,
-        "snowfall":0.0,
-        "snow_depth":0.0,
-        "rain":0.0,
-        "wind_speed_10m":3.6179552078
-    },
-    {
-        "date":"2026-06-28T07:00:00.000Z",
-        "temperature_2m":26.3015003204,
-        "apparent_temperature":27.5330085754,
-        "weather_code":3.0,
-        "snowfall":0.0,
-        "snow_depth":0.0,
-        "rain":0.0,
-        "wind_speed_10m":5.3517847061
-    },
-    {
         "date":"2026-06-28T08:00:00.000Z",
-        "temperature_2m":27.751499176,
-        "apparent_temperature":29.2426719666,
-        "weather_code":3.0,
+        "temperature_2m":28.751499176,
+        "apparent_temperature":30.1268692017,
+        "weather_code":1.0,
         "snowfall":0.0,
         "snow_depth":0.0,
         "rain":0.0,
-        "wind_speed_10m":3.8773183823
+        "wind_speed_10m":6.0346999168
     },
     {
         "date":"2026-06-28T09:00:00.000Z",
-        "temperature_2m":31.0515003204,
-        "apparent_temperature":31.5880889893,
+        "temperature_2m":31.1014995575,
+        "apparent_temperature":33.0312347412,
         "weather_code":1.0,
         "snowfall":0.0,
         "snow_depth":0.0,
         "rain":0.0,
-        "wind_speed_10m":5.8048253059
+        "wind_speed_10m":2.9686360359
     },
     {
         "date":"2026-06-28T10:00:00.000Z",
-        "temperature_2m":33.3014984131,
-        "apparent_temperature":33.8420791626,
-        "weather_code":1.0,
-        "snowfall":0.0,
-        "snow_depth":0.0,
-        "rain":0.0,
-        "wind_speed_10m":8.3112449646
-    },
-    {
-        "date":"2026-06-28T11:00:00.000Z",
-        "temperature_2m":34.251499176,
-        "apparent_temperature":34.3326416016,
+        "temperature_2m":32.6515007019,
+        "apparent_temperature":34.6025848389,
         "weather_code":3.0,
         "snowfall":0.0,
         "snow_depth":0.0,
         "rain":0.0,
-        "wind_speed_10m":9.8326797485
+        "wind_speed_10m":1.9386591911
+    },
+    {
+        "date":"2026-06-28T11:00:00.000Z",
+        "temperature_2m":33.951499939,
+        "apparent_temperature":35.2840156555,
+        "weather_code":3.0,
+        "snowfall":0.0,
+        "snow_depth":0.0,
+        "rain":0.0,
+        "wind_speed_10m":4.3349742889
+    },
+    {
+        "date":"2026-06-28T12:00:00.000Z",
+        "temperature_2m":34.3014984131,
+        "apparent_temperature":35.9857711792,
+        "weather_code":3.0,
+        "snowfall":0.0,
+        "snow_depth":0.0,
+        "rain":0.0,
+        "wind_speed_10m":0.8049845099
+    },
+    {
+        "date":"2026-06-28T13:00:00.000Z",
+        "temperature_2m":35.6015014648,
+        "apparent_temperature":37.3870620728,
+        "weather_code":3.0,
+        "snowfall":0.0,
+        "snow_depth":0.0,
+        "rain":0.0,
+        "wind_speed_10m":7.1457958221
+    },
+    {
+        "date":"2026-06-28T14:00:00.000Z",
+        "temperature_2m":32.001499176,
+        "apparent_temperature":32.1675338745,
+        "weather_code":3.0,
+        "snowfall":0.0,
+        "snow_depth":0.0,
+        "rain":0.0,
+        "wind_speed_10m":15.0038394928
+    },
+    {
+        "date":"2026-06-28T15:00:00.000Z",
+        "temperature_2m":34.6015014648,
+        "apparent_temperature":35.018196106,
+        "weather_code":3.0,
+        "snowfall":0.0,
+        "snow_depth":0.0,
+        "rain":0.0,
+        "wind_speed_10m":8.4042844772
     }
 ]
