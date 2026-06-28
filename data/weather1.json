@@ -1,82 +1,82 @@
 [
     {
-        "date":"2026-06-27T23:00:00.000Z",
-        "temperature_2m":24.701499939,
-        "apparent_temperature":26.687702179,
-        "weather_code":3.0,
-        "snowfall":0.0,
-        "snow_depth":0.0,
-        "rain":0.0,
-        "wind_speed_10m":4.5107870102
-    },
-    {
-        "date":"2026-06-28T00:00:00.000Z",
-        "temperature_2m":24.1515007019,
-        "apparent_temperature":25.3434391022,
-        "weather_code":3.0,
-        "snowfall":0.0,
-        "snow_depth":0.0,
-        "rain":0.0,
-        "wind_speed_10m":5.6348910332
-    },
-    {
-        "date":"2026-06-28T01:00:00.000Z",
-        "temperature_2m":23.5515003204,
-        "apparent_temperature":24.6901359558,
-        "weather_code":3.0,
-        "snowfall":0.0,
-        "snow_depth":0.0,
-        "rain":0.0,
-        "wind_speed_10m":5.2416787148
-    },
-    {
-        "date":"2026-06-28T02:00:00.000Z",
-        "temperature_2m":23.701499939,
-        "apparent_temperature":24.7478866577,
-        "weather_code":3.0,
-        "snowfall":0.0,
-        "snow_depth":0.0,
-        "rain":0.0,
-        "wind_speed_10m":4.8965291977
-    },
-    {
-        "date":"2026-06-28T03:00:00.000Z",
-        "temperature_2m":23.451499939,
-        "apparent_temperature":23.9941196442,
-        "weather_code":3.0,
-        "snowfall":0.0,
-        "snow_depth":0.0,
-        "rain":0.0,
-        "wind_speed_10m":7.2894439697
-    },
-    {
         "date":"2026-06-28T04:00:00.000Z",
-        "temperature_2m":23.001499176,
-        "apparent_temperature":23.4357852936,
-        "weather_code":2.0,
+        "temperature_2m":22.751499176,
+        "apparent_temperature":24.2056770325,
+        "weather_code":3.0,
         "snowfall":0.0,
         "snow_depth":0.0,
         "rain":0.0,
-        "wind_speed_10m":7.0911774635
+        "wind_speed_10m":6.1936740875
     },
     {
         "date":"2026-06-28T05:00:00.000Z",
-        "temperature_2m":23.5515003204,
-        "apparent_temperature":24.0297393799,
-        "weather_code":2.0,
-        "snowfall":0.0,
-        "snow_depth":0.0,
-        "rain":0.0,
-        "wind_speed_10m":6.7637858391
-    },
-    {
-        "date":"2026-06-28T06:00:00.000Z",
-        "temperature_2m":25.451499939,
-        "apparent_temperature":25.8429794312,
+        "temperature_2m":23.201499939,
+        "apparent_temperature":25.1601257324,
         "weather_code":3.0,
         "snowfall":0.0,
         "snow_depth":0.0,
         "rain":0.0,
-        "wind_speed_10m":7.4215898514
+        "wind_speed_10m":2.5959968567
+    },
+    {
+        "date":"2026-06-28T06:00:00.000Z",
+        "temperature_2m":24.8514995575,
+        "apparent_temperature":26.4905395508,
+        "weather_code":3.0,
+        "snowfall":0.0,
+        "snow_depth":0.0,
+        "rain":0.0,
+        "wind_speed_10m":3.6179552078
+    },
+    {
+        "date":"2026-06-28T07:00:00.000Z",
+        "temperature_2m":26.3015003204,
+        "apparent_temperature":27.5330085754,
+        "weather_code":3.0,
+        "snowfall":0.0,
+        "snow_depth":0.0,
+        "rain":0.0,
+        "wind_speed_10m":5.3517847061
+    },
+    {
+        "date":"2026-06-28T08:00:00.000Z",
+        "temperature_2m":27.751499176,
+        "apparent_temperature":29.2426719666,
+        "weather_code":3.0,
+        "snowfall":0.0,
+        "snow_depth":0.0,
+        "rain":0.0,
+        "wind_speed_10m":3.8773183823
+    },
+    {
+        "date":"2026-06-28T09:00:00.000Z",
+        "temperature_2m":31.0515003204,
+        "apparent_temperature":31.5880889893,
+        "weather_code":1.0,
+        "snowfall":0.0,
+        "snow_depth":0.0,
+        "rain":0.0,
+        "wind_speed_10m":5.8048253059
+    },
+    {
+        "date":"2026-06-28T10:00:00.000Z",
+        "temperature_2m":33.3014984131,
+        "apparent_temperature":33.8420791626,
+        "weather_code":1.0,
+        "snowfall":0.0,
+        "snow_depth":0.0,
+        "rain":0.0,
+        "wind_speed_10m":8.3112449646
+    },
+    {
+        "date":"2026-06-28T11:00:00.000Z",
+        "temperature_2m":34.251499176,
+        "apparent_temperature":34.3326416016,
+        "weather_code":3.0,
+        "snowfall":0.0,
+        "snow_depth":0.0,
+        "rain":0.0,
+        "wind_speed_10m":9.8326797485
     }
 ]
